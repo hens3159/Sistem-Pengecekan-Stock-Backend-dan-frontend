@@ -1,0 +1,215 @@
+
+*{
+      box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-Italic.ttf) format('truetype');
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-Semibold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-SemiboldItalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(font/OpenSans-Light.ttf) format('truetype');
+  font-weight:lighter;
+}
+
+.form-error{
+  color: red;
+}
+
+
+/* Login */
+.logo {
+  margin-top: 84px;
+}
+
+.logo h5{
+  margin-top:11px;
+  margin-bottom: 42px;
+  font-weight: bold;
+}
+
+.row-center{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.button-space{
+  margin-top:32px;
+}
+
+.form-login{
+  width: 370px;
+}
+
+.form-login input{
+  height: 54px;
+  border-radius: 4px;
+}
+
+.form-login input[type=submit]{
+  box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-login input[type=button]:hover{
+  background: white;
+  color: #31DB93;
+}
+
+.login-footer{
+  margin-top:54px;
+  margin-bottom:24px;
+  font-size: 12px;
+}
+
+.btn-success {
+color: #fff;
+background-color: #DDB532;
+border-color: #DDB532;
+}
+
+.btn-success:hover {
+color: #fff;
+background-color: #333333;
+border-color: #333333;
+}
+
+.button:active{
+color: #fff;
+background-color: #DDB532;
+border-color: #DDB532;
+}
+
+/* Register */
+
+.side-left{
+background-color: #31DB93;
+background: -moz-linear-gradient(top, #6affba 0%, #2ed991 100%) fixed; /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #6affba 0%,#2ed991 100%)fixed; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #6affba 0%,#2ed991 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6affba', endColorstr='#2ed991',GradientType=0 ); /* IE6-9 */
+}
+
+.side-right{
+}
+
+
+.logo .h4 {
+    margin-bottom: 24px;
+}
+
+
+.login-register{
+  margin-top:54px;
+  margin-bottom:117px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+.title-register{
+  margin:32px 0;
+}
+
+.title-register-1{
+  margin-bottom:8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.title-register-2{
+  font-size: 12px;
+  text-align: center;
+  color: #AAAAAA;
+}
+
+
+.form-register{
+  width: 436px;
+}
+
+.form-register input{
+  height: 54px;
+  border-radius: 4px;
+}
+
+
+.btn-success.disabled, .btn-success:disabled{
+color: #fff;
+background-color: #DADADA;
+border-color: #DADADA;
+}
+
+.btn-success.disabled, .btn-success:disabled:hover{
+color: #fff;
+background-color: #DADADA;
+border-color: #DADADA;
+}
+
+@media (min-width: 992px) {
+  .side-left{
+  background-color: #31DB93;
+  background: -moz-linear-gradient(top, #6affba 0%, #2ed991 100%) fixed; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6affba 0%,#2ed991 100%)fixed; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6affba 0%,#2ed991 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6affba', endColorstr='#2ed991',GradientType=0 ); /* IE6-9 */
+  top: 0;
+  left: 0;
+  position: fixed;
+  /* Preserve aspet ratio */
+  min-width: 50%;
+  min-height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+
+  }
+
+  .side-right{
+  background-color: black;
+  background: -moz-linear-gradient(top, #6affba 0%, #2ed991 100%) fixed; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6affba 0%,#2ed991 100%)fixed; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6affba 0%,#2ed991 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6affba', endColorstr='#2ed991',GradientType=0 ); /* IE6-9 */
+  top: 0;
+  right: 0;
+  position: fixed;
+  /* Preserve aspet ratio */
+  min-width: 50%;
+  min-height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+
+  }
+
+
+}
